@@ -2,12 +2,11 @@
 #
 # title             : blacklistcheck
 # description       : Test any domain against more then 200 black lists.
-# version           : 0.5.0
+# version           : 1.0.0
 # usage             : blcheck [options] <domain_or_ip>
 #===============================================================================
 
 # Config {
-
 
     # How many tries and for how long to wait for DNS queries
     CONF_DNS_TRIES=2
@@ -133,9 +132,7 @@
         xbl.spamhaus.org
         zen.spamhaus.org"
 
-
 #~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ }
-
 
 # Definitions {
 
